@@ -25,7 +25,7 @@ header li{
     font-size: 30px;
     color:rgb(185,147,72);
     font-family: "Ubuntu", sans-serif;
-    font-weight: 50;
+    font-weight: 100;
 }
 header a{
     text-decoration: none;
@@ -39,9 +39,13 @@ nav li:hover{
     color:rgb(149, 81, 8) ;
 
 }
+header a:hover{
+    color:rgb(165, 112, 6);
+}
 
 ul{
     list-style: none;
+    cursor:pointer;
 }
 
 
