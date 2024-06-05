@@ -10,7 +10,7 @@ header{
     margin:0 ;
     box-sizing: border-box;
     align-items: center;
-    padding: 10px 40px;
+    padding: 0px 40px;
 }
 header ul{
     display: flex;
@@ -40,7 +40,7 @@ nav li:hover{
 
 }
 header a:hover{
-    color:rgb(165, 112, 6);
+    color:rgb(130, 89, 5);
 }
 
 ul{
