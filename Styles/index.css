@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(185, 147, 72) ;
+    margin: 0;
+}
+header{
+    background-color: rgb(27,25,24);
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin:0 ;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px 40px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    
+    width :100%;
+    box-sizing: border-box;
+}
+header li{
+   
+    padding: 30px;
+    font-size: 30px;
+    color:rgb(185,147,72);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 50;
+}
+header a{
+    text-decoration: none;
+    color: rgb(241,158,67);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+nav li:hover{
+    color:rgb(149, 81, 8) ;
+
+}
+
+ul{
+    list-style: none;
+}
+
+
+
