@@ -1,52 +1,114 @@
-body{
-    background-color:rgb(185, 147, 72) ;
-    margin: 0;
+body {
+  background-color: rgb(50, 47, 45);
+  margin: 0;
 }
-header{
-    background-color: rgb(27,25,24);
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-    margin:0 ;
-    box-sizing: border-box;
-    align-items: center;
-    padding: 0px 40px;
+header {
+  background-color: rgb(27, 25, 24);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0px 40px;
 }
-header ul{
-    display: flex;
-    justify-content: space-between;
-    
-    width :100%;
-    box-sizing: border-box;
-}
-header li{
-   
-    padding: 30px;
-    font-size: 30px;
-    color:rgb(185,147,72);
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 100;
-}
-header a{
-    text-decoration: none;
-    color: rgb(241,158,67);
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-nav li:hover{
-    color:rgb(149, 81, 8) ;
+header ul {
+  display: flex;
+  justify-content: space-between;
 
+  width: 100%;
+  box-sizing: border-box;
 }
-header a:hover{
-    color:rgb(130, 89, 5);
+header li {
+  padding: 30px;
+  font-size: 30px;
+  color: rgb(185, 147, 72);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+}
+header a {
+  text-decoration: none;
+  color: rgb(241, 158, 67);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+nav li:hover {
+  color: rgb(149, 81, 8);
+}
+header a:hover {
+  color: rgb(130, 89, 5);
 }
 
-ul{
-    list-style: none;
-    cursor:pointer;
+ul {
+  list-style: none;
+  cursor: pointer;
+}
+main {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding:0;
+  justify-content: center;
 }
 
+main h1 {
+  color:rgb(241,158,67);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+}
+main img {
+  width: 400px;
+  height: 60%;
+  object-fit:cover;
+  margin: 0;
+  padding: 0;
+}
 
+#food{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+#food li{
+ 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color:rgb(227,200,172);
+  margin: 0;
+  margin-left: 30px;
+ 
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.content p{
+  font-size: 30px;
+  font-family: "Ubuntu",sans-serif;
+  font-weight: 500;
+}
+.content  a{
+  font-family: "Ubuntu",sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  background-color: rgb(232,147,33);
+  margin: 0;
+  width :200px;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ }
+.content a:hover{
+  background-color: rgb(147, 88, 11);
+}
 
