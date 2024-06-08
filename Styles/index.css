@@ -42,20 +42,20 @@ main h1 {
   color: rgb(238, 168, 80);
   font-size: 3rem;
 }
-#latest_products{
-  width:80% ;
-  margin:2rem auto;
+#latest_products {
+  width: 80%;
+  margin: 2rem auto;
 }
-#latest_products ul{
+#latest_products ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap:1rem;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
-.food_item img{
-  height:15rem;
-  width:100%;
+.food_item img {
+  height: 15rem;
+  width: 100%;
   object-fit: cover;
 }
 .food_item {
@@ -64,17 +64,29 @@ main h1 {
   overflow: hidden;
   list-style: none;
 }
-.food_content{
+.food_content {
   padding: 1rem;
   text-align: center;
 }
-.food_content a{
-  background-color: rgb(228,157,44);
-  color:white;
+.food_content a {
+  background-color: rgb(228, 157, 44);
+  color: white;
   border-radius: 4px;
-  padding:0.5rem 1rem;
-
+  padding: 0.5rem 1rem;
 }
-.food_content a:hover{
-  background-color:rgb(221,134,34) ;
+.food_content a:hover {
+  background-color: rgb(221, 134, 34);
+}
+
+@media (max-width: 48rem) {
+  main h1 {
+    font-size: 1.5rem;
+  }
+
+  header nav {
+    display: none;
+  }
+  #latest_products ul {
+    grid-template-columns: 1fr;
+  }
 }
